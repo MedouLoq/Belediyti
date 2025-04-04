@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../components/common/Button'; // Reuse button
+import { AnimatePresence, motion } from 'framer-motion';
 
 const NotFoundPage = () => {
     return (
